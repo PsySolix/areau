@@ -1,0 +1,53 @@
+// Fonts
+$font-family: 'Oswald', 'calibri', sans-serif;
+$font-family-alt: 'Helvetica', 'Arial', sans-serif;
+
+//$font: #{default-font-size}/#{$default-line-height} $font-family;
+
+$font-bold: bold;
+$font-normal: normal;
+
+$line-height: 1.35;
+
+$default-font-size: 13px;
+$h1-font-size: 30px;
+$h1-line-height: 40px;
+$h2-font-size: 24px;
+$h2-line-height: 32px;
+$h3-font-size: 18px;
+$h3-line-height: 24px;
+$h4-font-size: 16px;
+$h4-line-height: 22px;
+$h5-font-size: 14px;
+$h5-line-height: 20px;
+$h6-font-size: 14px;
+$h6-line-height: 20px;
+
+
+//logo
+$logo-width: 168px;
+
+// Colors
+$bg-color: #eeefea;
+$accent-color: #64a6a6;
+
+$white: #fff;
+$darkgrey: #636363;
+$tags: #5f5f5f;
+
+$white-color: $white;
+$black-color: #000;
+$grey-color: #808080;
+
+// Widths
+$page-wrapper-width: 1180px;
+$border-radius: 5px;
+
+
+$small-bp: 639px; //768
+$large-bp: 1024px;
+
+$small: "(min-width: #{$small-bp})";
+$large: "(min-width: #{$large-bp})";
+
+$small-max: "(max-width: #{$small-bp})";
